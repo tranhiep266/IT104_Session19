@@ -1,0 +1,86 @@
+:root {
+    /* Light theme defaults */
+    --bg: #ffffff;
+    --fg: #213547;
+    --link: #646cff;
+    --link-hover: #747bff;
+    --btn-bg: #f9f9f9;
+    --card-bg: #f6f7f9;
+
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: var(--fg);
+    background-color: var(--bg);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html.dark {
+    --bg: #242424;
+    --fg: rgba(255, 255, 255, 0.87);
+    --link: #8da2ff;
+    --link-hover: #aab6ff;
+    --btn-bg: #1a1a1a;
+    --card-bg: #1e1e1e;
+}
+
+a {
+    font-weight: 500;
+    color: var(--link);
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+body {
+    margin: 0; /* avoid centering the whole document */
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.courses {
+    display: flex;
+    gap: 10%;
+    margin: auto;
+
+}
+
+.course-card {
+    width: 300px;
+
+}
+
+.course-card img {
+    max-width: 200px;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: gray;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
