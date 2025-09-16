@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "iPhone 16 Pro Max",
+      "image": "https://example.com/iphone16promax.jpg",
+      "price": 35000000,
+      "quantity": 10,
+      "created_at": "2025-09-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "product_name": "Samsung Galaxy S24 Ultra",
+      "image": "https://example.com/galaxy-s24-ultra.jpg",
+      "price": 28000000,
+      "quantity": 15,
+      "created_at": "2025-09-02T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "product_name": "Xiaomi 15 Pro",
+      "image": "https://example.com/xiaomi15pro.jpg",
+      "price": 18000000,
+      "quantity": 20,
+      "created_at": "2025-09-05T08:15:00Z"
+    },
+    {
+      "id": 4,
+      "product_name": "Oppo Find X8",
+      "image": "https://example.com/oppo-find-x8.jpg",
+      "price": 20000000,
+      "quantity": 12,
+      "created_at": "2025-09-07T12:00:00Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "student_name": "Nguyen Van A",
+      "email": "vana@example.com",
+      "address": "Hà Nội",
+      "phone": "0912345678",
+      "status": true,
+      "created_at": "2025-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "student_name": "Tran Thi B",
+      "email": "thib@example.com",
+      "address": "TP. Hồ Chí Minh",
+      "phone": "0987654321",
+      "status": false,
+      "created_at": "2025-09-05T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "student_name": "Le Van C",
+      "email": "vanc@example.com",
+      "address": "Đà Nẵng",
+      "phone": "0978123456",
+      "status": true,
+      "created_at": "2025-09-10T14:15:00.000Z"
+    }
+  ]
+}
